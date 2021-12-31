@@ -1,0 +1,42 @@
+.interest-container{
+    margin-top: 100px 0;
+    padding: 0 100px ;
+}
+
+@media (max-width:1235px) {
+    .interest-container{
+        padding: 0 50px ;
+    }
+}
+
+@media (max-width:660px) {
+   .utility-head{
+       font-size: 4rem;
+   }
+}
+
+.interest-heading{
+display: none;
+width: 250px;
+text-align: center;
+margin: 0 auto;
+}
+.interest-hr{
+    display: none;
+}
+
+@media (max-width:555px) {
+    .utility-head{
+        display: none;
+    }
+    .utility-hr{
+        display: none;
+    }
+    .interest-heading{
+        display: inherit;
+        }
+        .interest-hr{
+            display: inherit;
+        }
+ }
+

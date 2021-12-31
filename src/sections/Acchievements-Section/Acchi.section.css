@@ -1,0 +1,15 @@
+.achi-container{
+    padding: 0 100px;
+}
+.achievement-card--container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media (max-width:1235px) {
+    .achi-container{
+        padding:0 50px;
+    }
+}

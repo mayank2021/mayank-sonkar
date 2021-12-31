@@ -1,0 +1,27 @@
+.tech-section{
+    margin-top: 100px;
+}
+
+.tech-card--container{
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1235px) {
+    .tech-section{
+        margin-top: 50px;
+    }   
+}
+
+@media (max-width:1070px) {
+    .tech-card--container{
+        display: flex;
+        align-items: center;
+        padding: 0 100px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }   
+}

@@ -1,0 +1,16 @@
+.about-section{
+margin-top: 100px;
+}
+
+.about-card--container{
+    padding: 0 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1235px) {
+    .about-card--container{
+        padding: 0 50px;
+    }
+}
