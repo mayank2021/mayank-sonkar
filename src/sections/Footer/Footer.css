@@ -183,19 +183,23 @@ margin-bottom: 10px;
 
 @media (max-width:450px) {
     .footer{
-        height: 166vh;
+        height: auto;
         padding: 0 20px;
     }
     
     .footer-content{
         flex-direction: column;
-        height: 160vh;
+        height: auto;
+        padding-bottom: 60px;
     }
 
     .connect{
         padding: 0;
-        justify-content: center;
-        align-items: center;
+        height: auto;
+    }
+
+    .important-links{
+        height: auto;
     }
     
     .footer-logo img{
@@ -217,34 +221,14 @@ margin-bottom: 10px;
     margin-bottom: 10px;
     font-size: 2.5rem;
     }
-}
 
-
-@media (max-width:376px) {
-    
-    .footer{
-        height: 171vh;
+    .footer-logo{
+        height: auto;
     }
 }
 
-@media (max-width:365px) {
-    
-    .footer{
-        height: 183vh;
-        padding: 0 20px;
-    }
-
+@media (max-width:470px) {
     .footer-logo p{
-        width: 250px;
-    }
-    
-}
-
-@media (max-width:321px) {
-    
-    .footer{
-        height: 212vh;
-        padding: 0 20px;
+        width: 275px;
     }
 }
-
