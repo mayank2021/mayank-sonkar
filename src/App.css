@@ -210,7 +210,7 @@ justify-content: center;
 
     @media (max-width:425px) { 
         .app-main--container{
-            height: 92vh;
+            height: auto;
          }
          .set{
             width: 85%;
@@ -222,12 +222,13 @@ justify-content: center;
 
     @media (max-width:390px) { 
         .app-main--container{
-            height: 110vh;
+            height: auto;
+            padding-bottom: 20px;
          }
     }
     @media (max-width:376px) { 
         .app-main--container{
-            height: 102vh;
+            height: auto;
          }
     }
     .divider-hr{
