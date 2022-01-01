@@ -210,7 +210,7 @@ justify-content: center;
 
     @media (max-width:425px) { 
         .app-main--container{
-            height: 100vh;
+            height: 92vh;
          }
          .set{
             width: 85%;
@@ -225,6 +225,11 @@ justify-content: center;
             height: 110vh;
          }
     }
+    @media (max-width:376px) { 
+        .app-main--container{
+            height: 102vh;
+         }
+    }
     .divider-hr{
         width: 100px;
         margin: 100px auto;
@@ -232,3 +237,19 @@ justify-content: center;
         border-radius: 0px;
         opacity: 0.8;
     }
+
+    
+@media (max-width:321px) { 
+    
+     .set{
+        width: 80%;
+    }
+    
+    
+    }
+
+    /* @media (height: 823px) {
+        .app-main--container{
+            height: 96vh;
+         }
+      } */

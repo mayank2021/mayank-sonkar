@@ -1,9 +1,8 @@
 .footer{
     border: 5px solid #ff8405;
-    height: 50vh;
     color:white;
     position: relative;
-    padding: 0 30px;
+    padding: 30px 30px 55px 30px;
     margin: 120px 20px 20px 20px;
 }
 
@@ -11,7 +10,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 42vh;
 }
 
 .footer-logo{
@@ -20,7 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 35px;
+    padding: 0px 35px;
 }
 
 .footer-logo img{
@@ -41,7 +39,7 @@
 display: flex;
 flex-direction: column; 
 height: 100%;
-padding: 25px 0px 25px 50px;
+padding-left:50px;
 width: 25%;
 justify-content: center;
 }
@@ -74,7 +72,7 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     height: 100%;
-    padding: 25px 0 0px 0;
+    /* padding: 25px 0 0px 0; */
 }
 
 .footer-primary{
@@ -185,8 +183,8 @@ margin-bottom: 10px;
 
 @media (max-width:450px) {
     .footer{
-        height: 180vh;
-        padding: 0 20px;
+        height: 166vh;
+        padding: 0 10px;
     }
     
     .footer-content{
@@ -213,15 +211,34 @@ margin-bottom: 10px;
     margin-bottom: 10px;
     font-size: 2.5rem;
     }
+}
+
+
+@media (max-width:376px) {
     
+    .footer{
+        height: 175vh;
+    }
 }
 
 @media (max-width:365px) {
     
+    .footer{
+        height: 183vh;
+        padding: 0 20px;
+    }
+
     .footer-logo p{
         width: 250px;
     }
     
 }
 
+@media (max-width:321px) {
+    
+    .footer{
+        height: 212vh;
+        padding: 0 20px;
+    }
+}
 
