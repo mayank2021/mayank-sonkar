@@ -57,7 +57,7 @@ export const ProjectData = [
         key:"4",
         title:"Nurture",
         image:"https://i.pinimg.com/564x/eb/e5/1d/ebe51ded603c286df8e91f133b58ee87.jpg",
-        descrip:"Nurture is a weather progressive web app, Which is reliable (load instantly), fast (respond quickly), and Engaging (feel natural) as it is designed to combine the best features of mobile apps and the mobile web.",
+        descrip:"Nurture is a weather progressive web app, It is reliable (load instantly), fast (respond quickly), and engaging (feel natural) as it is designed to combine the best features of mobile apps and the mobile web.",
         tech1:Pwa,
         tech1span:"PWA",
         tech2:Css,

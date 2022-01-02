@@ -24,7 +24,7 @@ export const TechData = [
     key:"1",
     image:Frontend,
     title:"Frontend",
-    descrip:"From staring, I was highly indulged towards the front end. As the best part, I felt here is to see your efforts within a minute, and it always gives lots of opportunities as it's constantly evolving.",
+    descrip:"From starting, I was highly indulged towards the front end. As the best part, I felt here is to see your efforts within a minute, and it always gives lots of opportunities as it's constantly evolving.",
     tech1:Html,
     tech2:Css,
     tech3:Bootstrap,
