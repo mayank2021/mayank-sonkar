@@ -51,7 +51,7 @@ const Navigation = () => {
             </li>
             <li className="nav-item">
               <a
-                href="https://drive.google.com/file/d/1F_4SwL8pbkjSoNddSUKR285M03fuAUbQ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1tatJrETBuNser5bgTf46gPUD81800Qe-/view"
                 className="nav-link"
                 target="_blank"
                 rel="noopener noreferrer"
