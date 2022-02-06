@@ -1,6 +1,5 @@
 import React from 'react';
 import './Acchievements.css';
-import Html from '../../Images/Tech/html.png';
 
 const Acchievements = (props) => {
     return (

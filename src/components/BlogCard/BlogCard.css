@@ -1,0 +1,125 @@
+.blogcard-main--container {
+  width: 332px;
+  height: 180px;
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border:6px solid #fa8812 ;
+  border-radius: 25px 0 25px 0;
+  overflow: hidden;
+  margin: 20px 0px;
+  transition: all 0.8s;
+}
+
+.blogcard-main--container:hover{
+  border-radius: 0 25px 0 25px;
+  transform:translate(0,-20px);
+}
+.blogcard--overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    background-color: rgba(0,0,0,0);
+    height: 168px;
+    transition: all 0.5s linear;
+    border-radius: 20px 0 20px 0;
+}
+
+.blogcard-main--container:hover > .blogcard--overlay{
+    background-color: rgba(0,0,0,1);
+}
+
+
+.blog-content--container {
+  position: relative;
+  z-index: 10;
+  padding: 10px;
+  width: 100%;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-content--h1 {
+    color:#fa8812;
+  font-size: 2rem;
+  text-align: justify;
+  transform: translateX(-350px);
+  transition: all 0.5s ease-in-out;
+}
+
+.blog-content--p {
+    color:white;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: justify;
+  opacity: 0.8;
+  transform: translateX(-350px);
+  transition: all 0.5s ease-in-out 0.3s;
+}
+
+.blog-content--a {
+  background-color:#fa8812;;
+  padding: 5px;
+  font-weight: 500;
+  color: white;
+  border-radius: 6px 0 6px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 60px;
+  transform: translateX(-120px);
+  transition: all 0.5s ease-in-out 0.7s;
+}
+
+.blog-content--a:hover {
+  border-radius: 0 6px 0 6px;
+}
+
+.blog-content--container:hover > .blog-content--h1 {
+  transform: translateY(0px);
+}
+
+
+.blog-content--container:hover > .blog-content--p {
+    transform: translateY(0px);
+  }
+  
+.blog-content--container:hover > .blog-content--a {
+    transform: translateY(0px);
+  }
+
+
+  @media (max-width:500px) {
+    .blogcard-main--container {
+      width: 290px;
+      height: 200px;
+    }
+    .blogcard--overlay{
+        width: 290px;
+        background-color: rgba(0,0,0,1);
+        height: 200px;
+    }
+    
+    
+    .blog-content--container {
+      height: 200px;
+      justify-content: space-evenly;
+    }
+    
+    .blog-content--h1 {
+      transform: translateX(0px);
+    }
+    
+    .blog-content--p {
+      transform: translateX(0px);
+    }
+    
+    .blog-content--a {
+      transform: translateX(0px);
+    }
+}

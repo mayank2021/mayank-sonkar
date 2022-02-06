@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from 'react';
 import './App.css';
-import Animation from './components/StarAnimation/Animation';
 import Nav from './components/Navigation/Navigation';
 import Home from './components/Home/Home';
 import Leaf from './Images/leaf.png';
@@ -17,6 +16,7 @@ import ProSection from './sections/Project-section/ProSection';
 import TechSection from './sections/Tech-section/TechSection';
 import AboutSection from './sections/About-section/AboutSection';
 import AcchiSection from './sections/Acchievements-Section/Acchi-section';
+import BlogSection from './sections/Blog-Section/BlogSection';
 import InterestSection from './sections/Interest/InterestSection';
 import Footer from './sections/Footer/Footer';
 import Click from './Images/click.png';
@@ -105,6 +105,8 @@ useEffect(() => {
             <hr style={{borderColor:color}} className="divider-hr" />
             <div id="achievement"></div>
             <AcchiSection color={color}/>
+            <hr style={{borderColor:color}} className="divider-hr" />
+            <BlogSection color={color}/>
             <hr style={{borderColor:color}} className="divider-hr" />
             <InterestSection color={color}/>
             <hr style={{borderColor:color}} className="divider-hr" />

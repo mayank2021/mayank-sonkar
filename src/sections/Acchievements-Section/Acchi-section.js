@@ -7,7 +7,7 @@ const AcchiSection = (props) => {
     return (
         <div className="achi-container">
           <h1 style={{color:props.color}} className="primary--heading center">achievements</h1>
-          <hr style={{borderColor:props.color, width: "70px" }} className="primary--heading-hr" />
+          <hr style={{borderColor:props.color, width: "180px" }} className="primary--heading-hr" />
           <div className="achievement-card--container">
             {
               AchiData.map(ele => {
