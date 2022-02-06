@@ -5,6 +5,7 @@
 
 @media (max-width:500px) {
     .blog-section--container{
+        justify-content: center;
         padding: 0 20px;
     }
 }

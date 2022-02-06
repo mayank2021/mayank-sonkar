@@ -17,6 +17,10 @@
   border-radius: 0 25px 0 25px;
   transform:translate(0,-20px);
 }
+
+.blogcard-main--container:hover > .blogcard--overlay{
+  border-radius: 0 25px 0 25px;
+}
 .blogcard--overlay{
     position: absolute;
     top: 0;
