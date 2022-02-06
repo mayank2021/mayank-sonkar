@@ -19,7 +19,7 @@
 }
 
 .blogcard-main--container:hover > .blogcard--overlay{
-  border-radius: 0 25px 0 25px;
+  border-radius: 0 20px 0 20px;
 }
 .blogcard--overlay{
     position: absolute;
