@@ -1,0 +1,6 @@
+.demo-card--container {
+  display: flex;
+  padding: 0 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

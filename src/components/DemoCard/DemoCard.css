@@ -1,0 +1,41 @@
+.project-video--container {
+  width: 380px;
+  height: 250px;
+  border: 7px solid #ff8405;
+  color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 25px 0 25px 0;
+  margin: 50px;
+}
+
+.demo--video {
+  width: 366px;
+  height: 200px;
+  border-radius: 0px 0 15px 0;
+}
+.project-video--container h1 {
+  padding: 5px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 5px solid #ff8405;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .project-video--container {
+    width: 380px;
+    height: 205px;
+  }
+
+  .demo--video {
+    width: 260px;
+    height: 150px;
+  }
+
+  .heading-demo-utility {
+    text-align: center;
+  }
+}
