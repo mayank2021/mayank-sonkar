@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navigation.css";
-import Logo from '../../Images/mayank-sonkar-logo.svg';
+import Logo from "../../Images/mayank-sonkar-logo.svg";
 
 const Navigation = () => {
   const [hamburger, setHamburger] = useState(false);
@@ -9,7 +9,7 @@ const Navigation = () => {
     <div>
       <header className="header">
         <nav className="navbar">
-          <a href="/" style={{cursor:"pointer"}} className="nav-logo">
+          <a href="/" style={{ cursor: "pointer" }} className="nav-logo">
             <img src={Logo} alt="logo" />
           </a>
           <ul className={`${hamburger ? "active" : null} nav-menu`}>
@@ -51,7 +51,7 @@ const Navigation = () => {
             </li>
             <li className="nav-item">
               <a
-                href="https://drive.google.com/file/d/1tatJrETBuNser5bgTf46gPUD81800Qe-/view"
+                href="https://drive.google.com/file/d/1SpC-2Bby_BJcStzL2RcPIOVJpqv76jev/view"
                 className="nav-link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -63,7 +63,9 @@ const Navigation = () => {
           </ul>
           <div
             className={`${hamburger ? "active" : null} hamburger`}
-            onClick={() => hamburger?setHamburger(false):setHamburger(true)}
+            onClick={() =>
+              hamburger ? setHamburger(false) : setHamburger(true)
+            }
           >
             <span className="bar"></span>
             <span className="bar"></span>
